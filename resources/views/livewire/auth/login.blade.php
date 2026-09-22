@@ -1,4 +1,5 @@
 <div class="container">
+    <div class="card d-flex ">
 
     @if (session()->has('error'))
         <div class="alert alert-danger">{{ session('error') }}</div>
@@ -25,4 +26,5 @@
         </div>
         <button type="submit" class="btn btn-primary">Entrar</button>
     </form>
+    </div>
 </div>

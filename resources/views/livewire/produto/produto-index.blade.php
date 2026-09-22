@@ -13,7 +13,7 @@
 
     <div class="mb-3">
         <input type="text" wire:model.live='search' 
-        placeholder="pesquisar..." class="form-control">
+        placeholder="Pesquisar..." class="form-control">
     </div>
 
     <table class="table table-hover">
